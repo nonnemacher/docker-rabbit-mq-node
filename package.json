@@ -1,0 +1,14 @@
+{
+  "name": "rabbit-mq",
+  "version": "1.0.0",
+  "description": "teste rabbitmq",
+  "scripts": {
+    "send": "node send.js",
+    "receive": "node receive.js"
+  },
+  "author": "Carlos Henriqque Nonnemacher",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
+}
